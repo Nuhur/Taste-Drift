@@ -1,0 +1,17 @@
+# Keep Personal data safe from being committed to the repository
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated database
+data/processed/*.db
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
